@@ -4,8 +4,8 @@ import ffmpeg from "fluent-ffmpeg";
 
 const storage = new Storage();
 // Needs to be globally universal
-const rawVideoBucketName = "";
-const processedVideoBucketName = "";
+const rawVideoBucketName = "highlight-every-day-raw-videos";
+const processedVideoBucketName = "highlight-every-processed-raw-videos";
 
 const localRawVideoPath = "./raw-videos";
 const localProcessedVideoPath = "./processed-videos";
